@@ -406,7 +406,7 @@ textarea { height: 303px; padding-top: 13px; resize: vertical; }
     line-height: 17px;
   }
   .mobile-menu .mobile-menu-cta:hover { background: #503b2d; }
-  .mobile-menu-socials { position: absolute; top: 270px; left: 28px; display: flex; align-items: center; gap: 11px; }
+  .mobile-menu-socials { position: absolute; top: 309px; left: 28px; display: flex; align-items: center; gap: 11px; }
   .mobile-menu-socials img:first-child { width: 30px; height: 29px; }
   .mobile-menu-socials img:last-child { width: 31px; height: 30px; }
   .menu-toggle[aria-expanded='true'] { position: fixed; top: 29px; right: 25px; padding: 9px; }
