@@ -121,7 +121,7 @@ h2 { margin-bottom: 28px; font-size: 48px; line-height: 1.08; letter-spacing: -.
 .program-step + .program-step { border-top: 1px solid rgba(255,255,255,.18); }
 .step-number { font-family: 'Manrope', sans-serif; font-size: 48px; font-weight: 700; line-height: 1; }
 .step-text strong { display: block; font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 800; line-height: 28px; }
-.step-text span { display: block; width: 200px; font-size: 18px; line-height: 28px; }
+.step-text span { display: block; width: 205px; font-size: 18px; line-height: 28px; }
 
 .plans-section { padding: 0 0 126px; text-align: center; }
 .plans-heading { margin-bottom: 55px; }
