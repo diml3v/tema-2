@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kontakt FORM via vores kontaktformular.">
+  <title>Kontakt | FORM</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="desktop-nav" aria-label="Primær navigation">
+      <a class="brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a>
+      <div class="desktop-links"><a href="index.html">Forside</a><a href="about.html">Om os</a><a href="contact.html" aria-current="page">Kontakt</a><a class="btn btn-light nav-cta" href="membership.html">Bliv medlem</a></div>
+    </nav>
+    <nav class="mobile-nav" aria-label="Mobilnavigation">
+      <a class="brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu-contact" aria-label="Åbn eller luk menu"><img src="assets/images/hamburger.svg" alt=""></button>
+      <div class="mobile-menu" id="mobile-menu-contact" hidden><ul><li><a href="index.html">Forside</a></li><li><a href="about.html">Om os</a></li><li><a href="contact.html" aria-current="page">Kontakt</a></li><li><a href="membership.html">Bliv medlem</a></li></ul></div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero page-hero contact-hero"><div class="container"><h1>Kontakt</h1></div></section>
+    <section class="form-section contact-form-section" aria-labelledby="contact-form-heading">
+      <div class="form-intro"><p class="eyebrow">Kontakt os</p><h2 id="contact-form-heading">Send din besked her</h2><p>Ved spørgsmål kan du kontakte vores kundeservice på telefon eller via kontaktformularen her på siden.</p></div>
+      <form class="form-shell" data-static-form>
+        <div class="form-grid">
+          <div class="field field-full"><label for="contact-name">Navn*</label><input id="contact-name" name="name" type="text" placeholder="Navn" required></div>
+          <div class="field"><label for="contact-email">Mail*</label><input id="contact-email" name="email" type="email" placeholder="Mail" required></div>
+          <div class="field"><label for="member-number">Medlemsnummer</label><input id="member-number" name="member-number" type="text" placeholder="LF65478"></div>
+          <div class="field field-full"><label for="message">Besked*</label><textarea id="message" name="message" placeholder="Skriv din besked..." required></textarea></div>
+        </div>
+        <button class="btn form-submit" type="submit">Send besked</button>
+        <p class="security-note"><img src="assets/images/headset-icon.png" alt="">Mails besvares typisk indenfor 24 timer.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-main"><a class="brand footer-brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a><p class="footer-description">Topmoderne udstyr, personlig træning og et motiverende fællesskab</p><div class="socials" aria-label="Sociale medier"><img src="assets/images/instagram-icon.png" alt="Instagram"><img src="assets/images/facebook-icon.png" alt="Facebook"></div></div>
+        <div><h2>Information</h2><ul><li>Medlemsregler</li><li>Privatlivspolitik</li><li>Cookie politik</li></ul></div>
+        <div><h2>Kontakt</h2><ul><li class="contact-row"><img src="assets/images/phone-icon.png" alt="">+45 12 34 56 78</li><li class="contact-row"><img src="assets/images/email-icon.png" alt="">kontakt@form.dk</li><li>CVR.nr: 12345678</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>FORM ApS © 2026</p></div>
+    </div>
+  </footer>
+</body>
+</html>

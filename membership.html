@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bliv medlem af FORM og kom trygt i gang med styrketræning.">
+  <title>Bliv medlem | FORM</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body class="membership-page">
+  <header class="site-header">
+    <nav class="desktop-nav" aria-label="Primær navigation">
+      <a class="brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a>
+      <div class="desktop-links"><a href="index.html">Forside</a><a href="about.html">Om os</a><a href="contact.html">Kontakt</a><a class="btn btn-light nav-cta" href="membership.html" aria-current="page">Bliv medlem</a></div>
+    </nav>
+    <nav class="mobile-nav" aria-label="Mobilnavigation">
+      <a class="brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu-membership" aria-label="Åbn eller luk menu"><img src="assets/images/hamburger.svg" alt=""></button>
+      <div class="mobile-menu" id="mobile-menu-membership" hidden><ul><li><a href="index.html">Forside</a></li><li><a href="about.html">Om os</a></li><li><a href="contact.html">Kontakt</a></li><li><a href="membership.html" aria-current="page">Bliv medlem</a></li></ul></div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero page-hero membership-hero"><div class="container"><h1>Bliv medlem</h1></div></section>
+    <section class="form-section" aria-labelledby="membership-form-heading">
+      <div class="form-intro"><p class="eyebrow">Opret dit medlemskab</p><h2 id="membership-form-heading">Kom i gang i dag</h2><p>Udfyld formularen, så er du et skridt tættere på en stærkere og sundere hverdag.</p></div>
+      <form class="form-shell" data-static-form>
+        <div class="form-grid">
+          <div class="field field-full"><label for="member-name">Navn*</label><input id="member-name" name="name" type="text" placeholder="Navn" required></div>
+          <div class="field"><label for="member-phone">Telefon*</label><input id="member-phone" name="phone" type="tel" placeholder="Telefon" required></div>
+          <div class="field"><label for="member-email">Mail*</label><input id="member-email" name="email" type="email" placeholder="Mail" required></div>
+          <div class="field"><label for="member-postcode">Postnummer*</label><input id="member-postcode" name="postcode" type="text" inputmode="numeric" placeholder="Postnummer" required></div>
+          <div class="field"><label for="member-plan">Medlemskab*</label><select id="member-plan" name="plan" required><option value="" selected disabled>Vælg medlemskab</option><option>Begynder</option><option>Basic</option><option>Elite</option></select></div>
+        </div>
+        <button class="btn form-submit" type="submit">Start dit medlemskab</button>
+        <p class="security-note"><img src="assets/images/lock-icon.png" alt="">Dine oplysninger er sikre og behandles fortroligt.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-main"><a class="brand footer-brand" href="index.html" aria-label="FORM – Forside"><img src="assets/images/form-logo.png" alt="FORM"></a><p class="footer-description">Topmoderne udstyr, personlig træning og et motiverende fællesskab</p><div class="socials" aria-label="Sociale medier"><img src="assets/images/instagram-icon.png" alt="Instagram"><img src="assets/images/facebook-icon.png" alt="Facebook"></div></div>
+        <div><h2>Information</h2><ul><li>Medlemsregler</li><li>Privatlivspolitik</li><li>Cookie politik</li></ul></div>
+        <div><h2>Kontakt</h2><ul><li class="contact-row"><img src="assets/images/phone-icon.png" alt="">+45 12 34 56 78</li><li class="contact-row"><img src="assets/images/email-icon.png" alt="">kontakt@form.dk</li><li>CVR.nr: 12345678</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>FORM ApS © 2026</p></div>
+    </div>
+  </footer>
+</body>
+</html>
