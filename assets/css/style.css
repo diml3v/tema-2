@@ -68,7 +68,8 @@ h2 { margin-bottom: 28px; font-size: 48px; line-height: 1.08; letter-spacing: -.
   text-decoration: none;
 }
 .desktop-links a:hover { text-decoration: underline; text-underline-offset: 5px; }
-.desktop-links .nav-cta { margin-left: 155px; color: var(--black); }
+.desktop-links .nav-cta { margin-left: 155px; color: var(--black); font-weight: 700; }
+.desktop-links .nav-cta:hover { text-decoration: none; }
 .mobile-nav { display: none; }
 
 .btn {
@@ -376,4 +377,46 @@ textarea { height: 303px; padding-top: 13px; resize: vertical; }
   .step-text span, .intro-copy p:not(.eyebrow), .philosophy-copy p:not(.eyebrow) { width: auto; }
   .plans-grid { width: 100%; }
   .plan-card, .plan-card.featured { width: min(282px, 100%); }
+}
+
+@media (max-width: 900px) {
+  .mobile-menu {
+    inset: 0 0 0 auto;
+    width: min(260px, 100vw);
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 94px 28px 40px;
+    color: var(--black);
+    background: var(--off-white);
+    box-shadow: -100vw 0 0 100vw rgba(0, 0, 0, .78);
+  }
+  .mobile-menu ul { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+  .mobile-menu a {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+  .mobile-menu .mobile-menu-cta {
+    width: 164px;
+    height: 45px;
+    color: var(--white);
+    background: var(--burgundy);
+    font-weight: 700;
+    line-height: 17px;
+  }
+  .mobile-menu .mobile-menu-cta:hover { background: #503b2d; }
+  .mobile-menu-socials { position: absolute; top: 270px; left: 28px; display: flex; align-items: center; gap: 11px; }
+  .mobile-menu-socials img:first-child { width: 30px; height: 29px; }
+  .mobile-menu-socials img:last-child { width: 31px; height: 30px; }
+  .menu-toggle[aria-expanded='true'] { position: fixed; top: 29px; right: 25px; padding: 9px; }
+  .menu-toggle[aria-expanded='true'] img {
+    width: 22px;
+    height: 22px;
+    transform: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-submit { width: 100%; margin-inline: auto; }
 }
